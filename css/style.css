@@ -1,0 +1,64 @@
+.imagen1{
+    width: 50px;
+    height: 40px;
+}
+
+.Indicaciones{
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	text-align: center;
+	margin: 25px 25px 25px;
+	padding: 20px;
+	border-radius: 35px 0px 35px 0px;
+	border: 2px solid #212529;
+	width:fit-content;
+}
+
+.background-chess{
+    background-size: 100%;
+}
+
+p{
+	position: center;
+	color: #212529;
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+}
+
+h3 {
+	text-decoration:underline;
+}
+
+hr {
+	position:absolute;
+	left:0px;
+	width:440px;
+}
+
+#lienzo {
+	margin: 30px auto;
+	display: flex;
+}
+
+#moveBlancas {
+	position:absolute;
+	left:500px;
+	top: 120px;
+	width:200px;
+}
+
+#moveNegras {
+	position:absolute;
+	left:700px;
+	top: 120px;
+	width:200px;
+}
+
+footer{
+    background-color: #212529; 
+    color: white; 
+    padding-bottom: 8px;
+    padding-top: 8px;
+    position: relative;
+    text-size-adjust: 100%;
+}
